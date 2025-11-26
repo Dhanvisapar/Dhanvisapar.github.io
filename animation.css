@@ -1,0 +1,19 @@
+.t1
+{
+    width: 100px;
+    height: 200px;
+    border: 5px solid red;
+    background: aqua;
+    animation-name: dhanvi;
+    animation-duration: 5s;
+}
+@keyframes dhanvi
+{
+    from
+    {
+        background-color: pink;
+        to{
+            background-color: green;
+        }
+    }
+}
